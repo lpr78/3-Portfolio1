@@ -1,0 +1,20 @@
+/*Google Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans&display=swap');
+
+/*Header content*/
+
+/*Footer content*/
+#google_map {
+    border-style: hidden;
+}
+
+/*Apply import font styles to website*/
+h1,
+h2 {
+    font-family: 'Hebo', sans-serif;
+}
+
+p,
+li {
+    font-family: 'Open Sans', sans-serif;
+}
