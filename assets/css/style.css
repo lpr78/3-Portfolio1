@@ -1,7 +1,7 @@
 /*Google Font Import*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans&display=swap');
 
-/*General settings on main tags*/
+/*General settings on main tags and classes*/
 html {
     background-color: #E6F0E8;
     font-size: 100%;
@@ -13,31 +13,63 @@ h2 {
     font-family: 'Hebo', sans-serif;
 }
 
-p,
+p,a,
 li {
     font-family: 'Open Sans', sans-serif;
-}
+}  
+
+strong{font-weight:bold; text-shadow: 3px 3px black}
 
 /*Header content*/
+
 header {
-    background-color: #2D5520;
+    background-color: rgba(45, 85, 32,1);
+    overflow:hidden;
+    width:100%;
     color: white;
+    position:fixed;
+    top:0;
 }
 
 #leap_logo {
     text-decoration: none;
     color: white;
+    float:left;
+    font-size: 120%;
+    margin-left: 20px;
 }
 
 #leap_logo:hover {
     color: #B7E8B0;
 }
 
+#leap_menu{
+    margin-right:20px;
+    font-size:110%;
+    letter-spacing:4px;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    list-style-type: none;
+}
+
+#leap_menu a{text-decoration: none;color:inherit;}
+
+#leap_menu li{padding:10px;padding-top: 10px;}
+
+#leap_menu li:hover{color: #B7E8B0; border-bottom: 1px solid #B7E8B0;}
+
+/*Main content between header and footer*/
+#main{height:100%;padding-top:80px;}
+
 /*Footer content*/
 footer {
-    background-color: #2D5520;
+    width:100%;
+    overflow:hidden;
     color: white;
     text-align: center;
+    background-color: rgba(45, 85, 32,1)
 }
 
 #copyright_padding{
