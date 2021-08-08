@@ -1,11 +1,10 @@
 /*Google Font Import*/
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans&display=swap');
 
-/*Header content*/
-
-/*Footer content*/
-#google_map {
-    border-style: hidden;
+/*General settings on main tags*/
+html {
+    background-color: #E6F0E8;
+    font-size: 100%;
 }
 
 /*Apply import font styles to website*/
@@ -18,3 +17,46 @@ p,
 li {
     font-family: 'Open Sans', sans-serif;
 }
+
+/*Header content*/
+header {
+    background-color: #2D5520;
+    color: white;
+}
+
+#leap_logo {
+    text-decoration: none;
+    color: white;
+}
+
+#leap_logo:hover {
+    color: #B7E8B0;
+}
+
+/*Footer content*/
+footer {
+    background-color: #2D5520;
+    color: white;
+    text-align: center;
+}
+
+#copyright_padding{
+    padding-bottom: 10px;
+}
+
+#google_map {
+    border-style: hidden;
+}
+
+.social_media {
+    color: white;
+    font-size: 300%;
+    margin: 2%;
+}
+
+.social_media:hover{color: #B7E8B0;}
+
+#footer_h2 {padding-top:20px;font-size:120%;}
+
+#tvc_link{text-decoration: none; color:white;}
+#tvc_link:hover{color: #B7E8B0;}

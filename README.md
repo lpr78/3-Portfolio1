@@ -14,3 +14,6 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021
 
 Accessibility Check - 08/08/2021
 <img width="745" alt="Screenshot 2021-08-08 at 15 02 48" src="https://user-images.githubusercontent.com/88032465/128634666-720ecd7d-3512-4191-bd85-ee7afcf47f03.png">
+
+improved accessibility score based on title and alt update:
+<img src= "assets/images/accessibility_improvements/08082021_v2.png">
