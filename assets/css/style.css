@@ -33,7 +33,7 @@ header {
     background-size: cover;
     height: auto;
     color: white;
-    padding-right:5px;
+    padding-right: 5px;
     position: fixed;
     top: 0;
 }
@@ -97,7 +97,7 @@ header {
     border-radius: 5%;
 }
 
-.leap_image:hover{
+.leap_image:hover {
     border: 3px solid #44803b;
 }
 
@@ -108,7 +108,19 @@ header {
 }
 
 /*Meet us page and comments*/
-.meet_team{border-radius: 5%;}
+
+#team{text-align: center;}
+.meet_team {
+    border-radius: 50%;
+    border: 2px solid #B7E8B0;
+    height: 350px;
+    width: auto;
+}
+
+.meet_team:hover {
+    border: 2px solid #44803b;
+    border-radius: 5%;
+}
 
 /*Footer content*/
 footer {
@@ -125,9 +137,9 @@ footer {
 
 #google_map {
     border-style: hidden;
-    width:99%;
+    width: 99%;
     padding-left: 5px;
-    padding-right:5px;
+    padding-right: 5px;
 }
 
 .social_media {
@@ -158,8 +170,7 @@ footer {
 
 /*Gallery adjustments*/
 
-@media screen and (max-width:950px) 
-{
+@media screen and (max-width:950px) {
     #leap_gallery {
         flex-basis: 100%;
     }
@@ -174,7 +185,7 @@ footer {
         margin-bottom: 5px;
         line-height: 15px;
         font-size: 90%;
-    
+
     }
 
     #main {
@@ -184,6 +195,16 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    #twitter_feed{display:none;}
-    #twitter_window{display: none;}
+    .meet_team {
+        border-radius: 5%;
+        border: 2px solid #B7E8B0;
+        width: auto;
+        height: 350px;
+    }
+
+    .meet_team:hover {
+        border: 2px solid #B7E8B0;
+        border-radius: 5%;
+
+    }
 }
