@@ -107,6 +107,9 @@ header {
     padding-top: 90px;
 }
 
+/*Meet us page and comments*/
+.meet_team{border-radius: 5%;}
+
 /*Footer content*/
 footer {
     background: url('../images/tree_footer.jpg') no-repeat center center;
@@ -180,8 +183,7 @@ footer {
     }
 }
 
-@media screen and (max-width:450px) {
-    .leap_image{
-        flex-basis: 100%;
-    }
+@media screen and (max-width:600px) {
+    #twitter_feed{display:none;}
+    #twitter_window{display: none;}
 }
