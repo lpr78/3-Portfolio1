@@ -63,6 +63,13 @@ header {
 
 #leap_menu li:hover{color: #B7E8B0; border-bottom: 1px solid #B7E8B0;}
 
+/*CSS code for leap_gallery and leap_images*/
+#leap_gallery{display:flex;flex-wrap: wrap;}
+
+.leap_image{margin:5px;flex-basis: 32%;flex-grow: 1; border:3px solid #B7E8B0;border-radius: 6%; }
+
+.leap_image img{width:100%;height:100%;border-radius: 5%;}
+
 /*Main content between header and footer*/
 #main{height:100%;padding-top:135px;}
 
@@ -96,3 +103,7 @@ footer {
 
 #tvc_link{text-decoration: none; color:white;}
 #tvc_link:hover{color: #B7E8B0;}
+
+/*Media adjustment for smaller devices*/
+
+/*Gallery adjustments*/
