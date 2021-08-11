@@ -29,14 +29,14 @@ strong {
 header {
     background: url('../images/tree_header.jpg') no-repeat center center;
     overflow: hidden;
-    width: 99%;
+    width: 100%;
     background-size: cover;
     height: auto;
     color: white;
-    padding-right: 5px;
-    position: fixed;
+    position: cover;
     top: 0;
 }
+
 
 #leap_logo {
     text-decoration: none;
@@ -79,33 +79,25 @@ header {
 
 /*CSS code for leap_gallery and leap_images*/
 #leap_gallery {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
 }
 
 .leap_image {
-    margin: 5px;
-    flex-basis: 32%;
-    flex-grow: 2;
-    border: 3px solid #B7E8B0;
-    border-radius: 6%;
-}
-
-.leap_image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5%;
+    border-radius: 20%;
+    border: 2px solid #B7E8B0;
+    height: 350px;
+    width: auto;
 }
 
 .leap_image:hover {
-    border: 3px solid #44803b;
+    border: 2px solid #44803b;
+    border-radius: 5%;
 }
 
 /*Main content between header and footer*/
 #main {
     height: auto;
-    padding-top: 90px;
+    clear:top;
 }
 
 /*Meet us page and comments*/
@@ -188,32 +180,28 @@ footer {
         font-size: 90%;
 
     }
-
-    #main {
-        height: auto;
-        padding-top: 150px;
-    }
 }
 
 @media screen and (max-width:600px) {
-    .meet_team {
+    .meet_team, .leap_image {
         border-radius: 5%;
         border: 2px solid #B7E8B0;
         width: auto;
         height: 350px;
     }
 
-    .meet_team:hover {
+    .meet_team:hover,  .leap_image:hover{
         border: 2px solid #B7E8B0;
         border-radius: 5%;
 
     }
+
+    
 }
 
 @media screen and (max-width:479px){
 #main {
     height: auto;
-    padding-top: 230px;
 }
 header{width:98%;}
 
@@ -228,4 +216,5 @@ header{width:98%;}
     padding-right: 0px;
     list-style-type: none;
 }
+.leap_image {width:350px; height:auto;}
 }
