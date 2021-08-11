@@ -210,7 +210,9 @@ footer {
     }
 }
 
+@media screen and (max-width:479px){
 #main {
     height: auto;
     padding-top: 200px;
+}
 }
