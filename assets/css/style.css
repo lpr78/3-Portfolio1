@@ -81,6 +81,7 @@ header {
 #leap_gallery {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .leap_image {
@@ -207,4 +208,9 @@ footer {
         border-radius: 5%;
 
     }
+}
+
+#main {
+    height: auto;
+    padding-top: 200px;
 }
