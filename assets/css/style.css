@@ -9,7 +9,9 @@ html {
 
 /*Apply import font styles to website*/
 h1,
-h2 {
+h2,
+h3,
+h4 {
     font-family: 'Hebo', sans-serif;
 }
 
@@ -17,11 +19,18 @@ p,
 a,
 li {
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
 }
 
 strong {
+    font-family: 'Hebo', sans-serif;
     font-weight: bold;
     text-shadow: 3px 3px black
+}
+
+iframe {
+    padding: 5px;
+    margin-right: 5px;
 }
 
 /*Header content*/
@@ -80,12 +89,14 @@ header {
 /*CSS code for leap_gallery and leap_images*/
 #leap_gallery {
     text-align: center;
+    clear: both;
+    ;
 }
 
 .leap_image {
     border-radius: 20%;
     border: 2px solid #B7E8B0;
-    height: 350px;
+    height: 325px;
     width: auto;
 }
 
@@ -97,12 +108,15 @@ header {
 /*Main content between header and footer*/
 #main {
     height: auto;
-    clear:top;
+    clear: top;
 }
 
 /*Meet us page and comments*/
 
-#team{text-align: center;}
+#team {
+    text-align: center;
+}
+
 .meet_team {
     border-radius: 50%;
     border: 2px solid #B7E8B0;
@@ -113,6 +127,75 @@ header {
 .meet_team:hover {
     border: 2px solid #44803b;
     border-radius: 5%;
+}
+
+/*Contact Us Page*/
+.www_logo {
+    text-decoration: none;
+    font-family: 'Hebo', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 3px white
+}
+
+.www_logo:hover {
+    color: #44803b;
+
+}
+
+#meet_times {
+    background: url('../images/contact_us/Meet_background_edit.png') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#meet_times div {
+    color: whitesmoke;
+    width: 20%;
+    height: 250px;
+    float: left;
+    padding: 30px 0 0 30px;
+    text-align: center;
+    border: 2px solid #E6F0E8;
+    box-sizing: border-box;
+}
+
+.leap_form {
+    clear: left;
+    background: url('../images/contact_us/Meet_background_edit.png') no-repeat center center;
+    background-size: cover;
+    height: auto;
+}
+
+.vol_sign_up {
+    margin: 150px 10% 0 0;
+    color: whitesmoke;
+    max-width: 450px;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+}
+
+.leap_input {
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+
+.leap_input:hover {
+    border-color: #E6F0E8;
+}
+
+.meet_button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
 }
 
 /*Footer content*/
@@ -183,38 +266,47 @@ footer {
 }
 
 @media screen and (max-width:600px) {
-    .meet_team, .leap_image {
+
+    .meet_team,
+    .leap_image {
         border-radius: 5%;
         border: 2px solid #B7E8B0;
         width: auto;
         height: 350px;
     }
 
-    .meet_team:hover,  .leap_image:hover{
+    .meet_team:hover,
+    .leap_image:hover {
         border: 2px solid #B7E8B0;
         border-radius: 5%;
 
     }
 
-    
+
 }
 
-@media screen and (max-width:479px){
-#main {
-    height: auto;
-}
-header{width:98%;}
+@media screen and (max-width:479px) {
+    #main {
+        height: auto;
+    }
 
-#leap_menu 
-{
-    margin-left: 5px;
-    font-size: 100%;
-    letter-spacing: 4px;
-    justify-content:left;
-    flex-wrap:wrap;
-    padding: 1px;
-    padding-right: 0px;
-    list-style-type: none;
-}
-.leap_image {width:350px; height:auto;}
+    header {
+        width: 100%;
+    }
+
+    #leap_menu {
+        margin-left: 5px;
+        font-size: 100%;
+        letter-spacing: 4px;
+        justify-content: left;
+        flex-wrap: wrap;
+        padding: 1px;
+        padding-right: 0px;
+        list-style-type: none;
+    }
+
+    .leap_image {
+        width: 250px;
+        height: auto;
+    }
 }
