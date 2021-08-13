@@ -17,7 +17,7 @@ h4 {
 
 p,
 a,
-li {
+li, label {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
@@ -147,6 +147,7 @@ header {
     background: url('../images/contact_us/Meet_background_edit.png') no-repeat center center;
     background-size: cover;
     overflow: hidden;
+    width:100%;
 }
 
 #meet_times div {
@@ -168,12 +169,12 @@ header {
 }
 
 .vol_sign_up {
-    margin: 150px 10% 0 0;
+    margin: 2% 2% 0 0;
     color: whitesmoke;
-    max-width: 450px;
+    max-width: 550px;
     position: relative;
-    left: 10%;
-    padding: 30px;
+    left: 5%;
+    padding: 20px;
 }
 
 .leap_input {
@@ -197,6 +198,9 @@ header {
     text-align: center;
     display: block;
 }
+
+#meet_agenda > ul{list-style-image: url('../images/contact_us/leaf_list_icons.svg');}
+
 
 /*Footer content*/
 footer {
@@ -263,6 +267,7 @@ footer {
         font-size: 90%;
 
     }
+    #meet_times > div {width:100%;clear:both;padding:10px;font-size: 90%;height:auto;}
 }
 
 @media screen and (max-width:600px) {
@@ -281,7 +286,7 @@ footer {
         border-radius: 5%;
 
     }
-
+    #meet_times > div {font-size: 85%;}
 
 }
 
@@ -309,4 +314,5 @@ footer {
         width: 250px;
         height: auto;
     }
+    #meet_times > div {font-size: 100%; height:auto;}
 }
