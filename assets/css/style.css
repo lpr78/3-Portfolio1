@@ -277,7 +277,7 @@ footer {
         border-radius: 5%;
         border: 2px solid #B7E8B0;
         width: auto;
-        height: 350px;
+        height: 250px;
     }
 
     .meet_team:hover,
@@ -309,10 +309,5 @@ footer {
         padding-right: 0px;
         list-style-type: none;
     }
-
-    .leap_image {
-        width: 250px;
-        height: auto;
-    }
-    #meet_times > div {font-size: 100%; height:auto;}
+    
 }
