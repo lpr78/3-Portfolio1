@@ -86,6 +86,21 @@ header {
     border-bottom: 1px solid #B7E8B0;
 }
 
+/*Index page*/
+#main > div {text-align: left;}
+
+#map_image {
+    max-width:600px;
+    border-radius: 20%;
+    border: 2px solid #B7E8B0;
+    height: auto;
+}
+
+#map_image:hover {
+    border: 2px solid #44803b;
+    border-radius: 5%;
+}
+
 /*CSS code for leap_gallery and leap_images*/
 #leap_gallery {
     text-align: center;
@@ -93,10 +108,11 @@ header {
     ;
 }
 
+
 .leap_image {
     border-radius: 20%;
     border: 2px solid #B7E8B0;
-    height: 325px;
+    height: 275px;
     width: auto;
 }
 
@@ -251,7 +267,7 @@ footer {
 /*Gallery adjustments*/
 
 @media screen and (max-width:950px) {
-    #leap_gallery {
+    #leap_gallery,#map_image {
         flex-basis: 100%;
     }
 
@@ -273,11 +289,11 @@ footer {
 @media screen and (max-width:600px) {
 
     .meet_team,
-    .leap_image {
+    .leap_image,#map_image {
         border-radius: 5%;
         border: 2px solid #B7E8B0;
         width: auto;
-        height: 250px;
+        height: 280px;
     }
 
     .meet_team:hover,
