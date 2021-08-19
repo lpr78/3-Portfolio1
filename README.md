@@ -21,10 +21,10 @@ http://www.simplesite.com/friendsofleapvalley/76040428) which is very basic and 
 
 ## Testing 
 ### Accessibility Check - 08/08/2021
-<img src="./assets/images/README_images/08082021_V2.png" width="550px">
+<img src="assets/images/README_images/08082021_V2.png" width="550px">
 
 improved accessibility score based on title and alt update:
-<img src= "./assets/images/README_images/08082021_V3.png" width="550px">
+<img src= "assets/images/README_images/08082021_V3.png" width="550px">
 
 <hr>
 
