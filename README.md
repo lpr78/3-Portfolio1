@@ -84,5 +84,6 @@ With the additional elements relating to the form element and additions to the m
 <li>https://github.com/Code-Institute-Org/gitpod-full-template</li>
 <li>https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/</li>
 <li>https://github.com/Code-Institute-Solutions/readme-template</li>
+<li>https://stackoverflow.com/questions/37506841/html-for-put-a-label-in-bottom-of-an-image/37506883</li>
 
 
