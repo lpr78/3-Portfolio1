@@ -17,7 +17,8 @@ h4 {
 
 p,
 a,
-li, label {
+li,
+label {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
@@ -25,7 +26,7 @@ li, label {
 strong {
     font-family: 'Hebo', sans-serif;
     font-weight: bold;
-    text-shadow: 3px 3px black
+    text-shadow: 1px 2px black
 }
 
 iframe {
@@ -87,10 +88,12 @@ header {
 }
 
 /*Index page*/
-#main > div {text-align: left;}
+#main>div {
+    text-align: left;
+}
 
 #map_image {
-    max-width:600px;
+    max-width: 600px;
     border-radius: 20%;
     border: 2px solid #B7E8B0;
     height: auto;
@@ -101,11 +104,29 @@ header {
     border-radius: 5%;
 }
 
+.map_btn {
+    padding: 10px;
+    border: 2px solid #44803b;
+    border-radius: 20px/50px;
+    color:#44803b;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.map_btn:hover {
+    border: 2px solid black;
+    border-radius: 5%;
+    color:whitesmoke;
+    background-color: #44803b;
+}
+
 /*CSS code for leap_gallery and leap_images*/
 #leap_gallery {
     text-align: center;
     clear: both;
-    ;
+    position: relative;
+    color: whitesmoke;
 }
 
 
@@ -114,6 +135,7 @@ header {
     border: 2px solid #B7E8B0;
     height: 275px;
     width: auto;
+    transition: all 0.5s ease-out;
 }
 
 .leap_image:hover {
@@ -138,6 +160,7 @@ header {
     border: 2px solid #B7E8B0;
     height: 350px;
     width: auto;
+    transition: all 0.5s ease-out;
 }
 
 .meet_team:hover {
@@ -163,7 +186,7 @@ header {
     background: url('../images/contact_us/Meet_background_edit.png') no-repeat center center;
     background-size: cover;
     overflow: hidden;
-    width:100%;
+    width: 100%;
 }
 
 #meet_times div {
@@ -215,7 +238,9 @@ header {
     display: block;
 }
 
-#meet_agenda > ul{list-style-image: url('../images/contact_us/leaf_list_icons.svg');}
+#meet_agenda>ul {
+    list-style-image: url('../images/contact_us/leaf_list_icons.svg');
+}
 
 
 /*Footer content*/
@@ -267,7 +292,9 @@ footer {
 /*Gallery adjustments*/
 
 @media screen and (max-width:950px) {
-    #leap_gallery,#map_image {
+
+    #leap_gallery,
+    #map_image {
         flex-basis: 100%;
     }
 
@@ -283,13 +310,21 @@ footer {
         font-size: 90%;
 
     }
-    #meet_times > div {width:100%;clear:both;padding:10px;font-size: 90%;height:auto;}
+
+    #meet_times>div {
+        width: 100%;
+        clear: both;
+        padding: 10px;
+        font-size: 90%;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:600px) {
 
     .meet_team,
-    .leap_image,#map_image {
+    .leap_image,
+    #map_image {
         border-radius: 5%;
         border: 2px solid #B7E8B0;
         width: auto;
@@ -302,7 +337,15 @@ footer {
         border-radius: 5%;
 
     }
-    #meet_times > div {font-size: 85%;}
+
+    #meet_times>div {
+        font-size: 85%;
+    }
+
+    /*Pop up box on index page*/
+    .popup {
+        width: 70%;
+    }
 
 }
 
@@ -325,5 +368,5 @@ footer {
         padding-right: 0px;
         list-style-type: none;
     }
-    
+
 }
