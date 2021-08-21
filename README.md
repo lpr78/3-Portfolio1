@@ -64,6 +64,9 @@ improved accessibility score based on title and alt update:
 ### Accessibility Check - 19/08/2021
 With the additional elements relating to the form element and additions to the meet us page, the accessibility score has decreased and need updating to ensure screen readers can understand the labels, as shown below <br>
 <img src="assets/images/README_images/19082021_V1.png" width = "600px">
+
+Improved accessibility score changing id names on form elements (contact us page) <br>
+<img src="assets/images/README_images/21082021_v1.png" width = "600px">
 <hr>
 
 ## Deployment
