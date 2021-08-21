@@ -108,7 +108,7 @@ header {
     padding: 10px;
     border: 2px solid #44803b;
     border-radius: 20px/50px;
-    color:#44803b;
+    color: #44803b;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.5s ease-out;
@@ -117,7 +117,7 @@ header {
 .map_btn:hover {
     border: 2px solid black;
     border-radius: 5%;
-    color:whitesmoke;
+    color: whitesmoke;
     background-color: #44803b;
 }
 
@@ -236,10 +236,28 @@ header {
     padding: 15px 32px;
     text-align: center;
     display: block;
+
+    border-radius: 20%;
+    border: 2px solid #B7E8B0;
+    transition: all 0.5s ease-out;
 }
 
 #meet_agenda>ul {
     list-style-image: url('../images/contact_us/leaf_list_icons.svg');
+}
+
+#cover_text {
+    font-size: 110%;
+    text-transform: inherit;
+    letter-spacing: 1px;
+    width: 600px;
+    height: 425px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(183, 232, 176, 0.7);
+    bottom: -150px;
+    right: 100px;
+    position: absolute;
 }
 
 
@@ -289,6 +307,14 @@ footer {
 
 /*Media adjustment for smaller devices*/
 
+
+/*Removing volunteer feedback from sign up form*/
+@media screen and (max-width:1325px) {
+    #cover_text {
+        display: none;
+    }
+}
+
 /*Gallery adjustments*/
 
 @media screen and (max-width:950px) {
@@ -318,6 +344,7 @@ footer {
         font-size: 90%;
         height: auto;
     }
+
 }
 
 @media screen and (max-width:600px) {
@@ -340,11 +367,6 @@ footer {
 
     #meet_times>div {
         font-size: 85%;
-    }
-
-    /*Pop up box on index page*/
-    .popup {
-        width: 70%;
     }
 
 }
