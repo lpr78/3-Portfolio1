@@ -127,6 +127,8 @@ header {
     clear: both;
     position: relative;
     color: whitesmoke;
+    align-content: center;
+    justify-content: center;
 }
 
 
@@ -258,7 +260,7 @@ header {
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(183, 232, 176, 0.7);
-    bottom: -160px;
+    bottom: -120px;
     right: 100px;
     position: absolute;
 }
