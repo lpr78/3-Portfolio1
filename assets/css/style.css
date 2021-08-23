@@ -121,6 +121,17 @@ header {
     background-color: #44803b;
 }
 
+#tvc_video{
+
+    border: 2px solid #44803b;
+    border-radius: 5%;     
+    position:relative;
+    left:0;
+    max-height: 315px;
+    max-width:560px;
+         
+}
+
 /*CSS code for leap_gallery and leap_images*/
 .leap_gallery {
     text-align: center;
@@ -308,7 +319,7 @@ footer {
 
 
 /*Removing volunteer feedback from sign up form*/
-@media screen and (max-width:1325px) {
+@media screen and (max-width:1200px) {
     #cover_text {
         display: none;
     }
@@ -388,6 +399,18 @@ footer {
         padding: 1px;
         padding-right: 0px;
         list-style-type: none;
+    }
+
+    #tvc_video{
+
+        border: none;
+        border-radius: 5%;     
+        position:relative;
+        left:0;
+        max-height: 300px;
+        max-width:470px;
+        overflow:hidden;
+             
     }
 
 }
