@@ -122,13 +122,8 @@ header {
 }
 
 /*CSS code for leap_gallery and leap_images*/
-#leap_gallery {
+.leap_gallery {
     text-align: center;
-    clear: both;
-    position: relative;
-    color: whitesmoke;
-    align-content: center;
-    justify-content: center;
 }
 
 
