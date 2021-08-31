@@ -60,7 +60,7 @@ The following navigation header has been used consistently across all three web 
 <li>Icons displayed to the right of the images to support identifying words, if translating text is difficult </li>
 <li>Relevant logo that also links to the homepage</li>
 </ul>
-<br><br>
+
 ### Home Page Elements
 The following image shows the main elements used on the home page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/index_pg.png" width ="700px">
@@ -70,7 +70,7 @@ The following image shows the main elements used on the home page (as of 19/08/2
 <li>Responsive images with title tags to showcase the main areas - from Pexels and own images</li>
 <li>Relevant titles and text to support what the volunteer would want to see on the home</li>
 </ul>
-<br><br>
+
 ### Members Elements
 The following image shows the main elements used on the members page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/meet_pg.png" width ="700px">
@@ -80,7 +80,6 @@ The following image shows the main elements used on the members page (as of 19/0
 <li>Responsive images of volunteering activities - from Pexels and own images</li>
 <li>Links to qualification to sell the volunteering opportunities</li>
 </ul>
-<br><br>
 
 ### Contact Us Elements
 The following image shows the main elements used on the contact us page (as of 19/08/2021) <br>
@@ -92,7 +91,7 @@ The following image shows the main elements used on the contact us page (as of 1
 <li>form element to select volunteering meeting time</li>
 <li>text block to sell the idea of volunteering</li>
 </ul>
-<br><br>
+
 ### Footer
 The following footer has been used consistently across all three web pages.  <br>
 <img src="assets/images/README_images/footer.png" width ="700px">
@@ -106,7 +105,6 @@ The following footer has been used consistently across all three web pages.  <br
 <li>Copyright notification to inform users of website creator</li>
 <li>Relevant logo that also links to the homepage</li>
 </ul>
-
 
 <hr>
 
