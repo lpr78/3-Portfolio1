@@ -3,7 +3,14 @@
 ## Purpose
 
 Leap Valley use a [simple site link](
-http://www.simplesite.com/friendsofleapvalley/76040428) which is very basic and does not include responsive elements.  The site offers information regarding Leap Valley for visitors, but lacks the contextual links associated with the TVC (Tutoring Volunteering Community) in Bristol.  The purpose of the site is to increase the number of volunteers, offering images of the beautiful sections associated with Leap Valley and volunteering meeting slots, which users are able to sign up, with a What3Words location to assist the potential volunteers of the location of the meeting, within Leap Valley.  
+http://www.simplesite.com/friendsofleapvalley/76040428) which is very basic and does not include responsive elements or details relating to the volunteer meeting times, or even sign up procedures for potential support from the local community in South Gloucestershire.  The site offers information regarding Leap Valley for visitors, but lacks the contextual links associated with the TVC (Tutoring Volunteering Community) in Bristol or volunteer meetings.  The previous meetings have lacked potential support from the local community, from failed attempts of using the monthly South Gloucestershire new letters.  
+
+The purpose of the site is to increase the number of volunteers, offering images of the beautiful areas within Leap Valley and volunteering meeting slots, which users are able to sign up, using relevant locators, such as What3Words to assist the potential volunteers of the location of the meeting, within Leap Valley.  The site target audience range from young professionals to the retired community, who want to learn about tending to wildlife across the Leap Valley areas and able to transfer these skills into their own garden and nature.  The site should also emphasis where volunteers can support the recent Guerrilla gardening initiative.  
+
+A range of media will support the sites purpose, with relevant navigation to images, video and text information.  The end result is a form element where volunteers can sign up to a wide-range of volunteer meetings which the main coordinators can use to ascertain number interest and time popularity for future events. 
+
+### Initial site idea on the home page
+<img src = "assets/images/README_images/purpose_section_image.png" width="550px">
 
 <hr>
 
@@ -15,6 +22,7 @@ The link to the [Published site](https://lpr78.github.io/3-Portfolio1/)
 
 ## Media Screen Responsive Elements
 The following show how the elements of the website current look at a responsive level:
+
 
 #### Home page view
 The following images shows how the contact us page looks at a responsive level:<br>
@@ -28,27 +36,76 @@ The following images shows how the contact us page looks at a responsive level:<
 The following images shows how the contact us page looks at a responsive level:<br>
 <img src="assets/images/README_images/responsive1.png" width ="550px">
 
-## Features
+## Features used in website
+<ul>
+<li>images</li>
+<li>video</li>
+<li>form</li>
+<li>text</li>
+<li>map elements</li>
+<li>icons</li>
+<li>animated elements on images</li>
+</ul>
+Further details of web elements used below: <br><br>
 
 ### Navigation Header
 The following navigation header has been used consistently across all three web pages.  <br>
 <img src="assets/images/README_images/header.png" width="700px">
-
+<ul>
+<li>Appears at the top of each web page</li>
+<li>Three links to home page, meet members and contact Friends of Leap Valley</li>
+<li>High contrast with background image that is customised using Photoshop</li>
+<li>Hover over identifies the desired location for the user</li>
+<li>Strong emphasis on current page, to support user with page element currently displayed</li>
+<li>Icons displayed to the right of the images to support identifying words, if translating text is difficult </li>
+<li>Relevant logo that also links to the homepage</li>
+</ul>
+<br><br>
 ### Home Page Elements
 The following image shows the main elements used on the home page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/index_pg.png" width ="700px">
-
+<ul>
+<li>Leap Valley Map to showcase the multiple areas where volunteers can support</li>
+<li>Video element demonstrated by volunteer to showcase popular areas and why they should volunteer</li>
+<li>Responsive images with title tags to showcase the main areas - from Pexels and own images</li>
+<li>Relevant titles and text to support what the volunteer would want to see on the home</li>
+</ul>
+<br><br>
 ### Members Elements
 The following image shows the main elements used on the members page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/meet_pg.png" width ="700px">
+<br>
+<ul>
+<li>Relevant titles and text to support celebrating recent qualification success from volunteers through TVC</li>
+<li>Responsive images of volunteering activities - from Pexels and own images</li>
+<li>Links to qualification to sell the volunteering opportunities</li>
+</ul>
+<br><br>
 
 ### Contact Us Elements
 The following image shows the main elements used on the contact us page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/contact_pg.png" width ="700px">
+<br>
+<ul>
+<li>Relevant titles and text to outline volunteer agenda for each time slot</li>
+<li>Rbanner image utilised for date and form section from pexels and own images</li>
+<li>form element to select volunteering meeting time</li>
+<li>text block to sell the idea of volunteering</li>
+</ul>
+<br><br>
 ### Footer
 The following footer has been used consistently across all three web pages.  <br>
 <img src="assets/images/README_images/footer.png" width ="700px">
-
+<br>
+<ul>
+<li>Appears at the bottom of each web page</li>
+<li>Contains a google map element to locate Leap Valley, where Friends of Leap Valley volunteer</li>
+<li>High contrast with background image that is customised using Photoshop which is the bottom section of the header image</li>
+<li>Hover over identifies the social media icon to select, as well as contact number to call using VOIP</li>
+<li>Strong emphasis on TVC link, to encourage volunteers to consider other opportunities around Bristol</li>
+<li>Copyright notification to inform users of website creator</li>
+<li>Relevant logo that also links to the homepage</li>
+</ul>
 
 
 <hr>
