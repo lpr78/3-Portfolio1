@@ -124,9 +124,36 @@ With the additional elements relating to the form element and additions to the m
 
 Improved accessibility score changing id names on form elements (contact us page) <br>
 <img src="assets/images/README_images/21082021_v1.png" width = "600px">
+
+
+### W3C HTML Check Results - 31/08/2021
+The following images shows some of the initial warnings and errors associated with the three web pages.  I used [W3C HTML validator](https://validator.w3.org/) the following The error message is consistent and will review with support.<br>
+<img src="assets/images/README_images/HTML_access_check_31082021.png" width="550px">
+
+### W3C CSS Check Results - 31/08/2021
+The results from the W3C CSS checker showcase no errors in the stylesheet. <br>
+<img src="assets/images/README_images/CSS_accessibility_checker_310821.png" width="550px">
+
 <hr>
 
-## Deployment
+## Deployment and further development ideas
+
+### Deployment
+<ul>
+<li>The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) are the working files updated from GitPod </li>
+<li>The link to the [Published site](https://lpr78.github.io/3-Portfolio1/) was updated via GitPod and frequently updated to GitHub</li>
+</ul>
+
+### Further development
+The following ideas could be further developed:
+<ul>
+<li>Use a modal for map, rather than linking to the image located on the web server</li>
+<li>Images could be placed into a scrollable gallery on the about us and members page to save space on the webpage itself</li>
+<li>Fix the header at the top of each page to allow the user to reduce scrolling to access the menu</li>
+<li>Develop a PHP link that supports the form rather than using the Code Institute POST link</li>
+<li>Link the video to a YouTube server and embed, to improve performance score on lighthouse</li>
+<li>Use some animated elements on images as long as this does not impact the performance score on the lighthouse</li>
+</ul>
 
 <hr>
 
@@ -140,7 +167,7 @@ Improved accessibility score changing id names on form elements (contact us page
 <li>https://web.dev/measure/</li>
 <li>https://www.tcv.org.uk/about/</li>
 <li>Creators own images and customisation of primary/copyright compliant sources via image editing software (Photoshop)</li>
-
+<br><br>
 
 ### References for learning:
 <li>https://github.com/Code-Institute-Org/gitpod-full-template</li>

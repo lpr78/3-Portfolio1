@@ -43,7 +43,7 @@ header {
     background-size: cover;
     height: auto;
     color: white;
-    position: cover;
+    position:relative;
     top: 0;
 }
 
