@@ -175,35 +175,9 @@ The following footer has been used consistently across all three web pages.  <br
 
 <hr>
 
-## Testing 
-### Accessibility Check - 08/08/2021
-<img src="assets/images/README_images/08082021_V2.png" width="600px">
+## Deployment
 
-improved accessibility score based on title and alt update:
-
-<img src= "assets/images/README_images/08082021_V3.png" width="600px">
-
-### Accessibility Check - 19/08/2021
-With the additional elements relating to the form element and additions to the meet us page, the accessibility score has decreased and need updating to ensure screen readers can understand the labels, as shown below <br>
-<img src="assets/images/README_images/19082021_V1.png" width = "600px">
-
-Improved accessibility score changing id names on form elements (contact us page) <br>
-<img src="assets/images/README_images/21082021_v1.png" width = "600px">
-
-
-### W3C HTML Check Results - 31/08/2021
-The following images shows some of the initial warnings and errors associated with the three web pages.  I used [W3C HTML validator](https://validator.w3.org/) the following The error message is consistent and will review with support.<br>
-<img src="assets/images/README_images/HTML_access_check_31082021.png" width="550px">
-
-### W3C CSS Check Results - 31/08/2021
-The results from the W3C CSS checker showcase no errors in the stylesheet. <br>
-<img src="assets/images/README_images/CSS_accessibility_checker_310821.png" width="550px">
-
-<hr>
-
-## Deployment and further development ideas
-
-### Pre-Testing Criteria
+### Success Criteria
 The following tests will need to be complete throughout development and final testing.
 <table>
 <tr> <th>Test No</th> <th>Test Actions</th> <th>Test Expectations</th>
@@ -221,6 +195,64 @@ The following tests will need to be complete throughout development and final te
 <tr><td>10</td><td>Map enlargement</td><td>The user should be able to locate the map enlargement button on the home page in order to access a larger scaled image of the website itself.</td></tr>
 
 </table>
+
+### Testing 
+#### Accessibility Check - 08/08/2021
+<img src="assets/images/README_images/08082021_V2.png" width="600px">
+
+improved accessibility score based on title and alt update:
+
+<img src= "assets/images/README_images/08082021_V3.png" width="600px">
+
+#### Accessibility Check - 19/08/2021
+With the additional elements relating to the form element and additions to the meet us page, the accessibility score has decreased and need updating to ensure screen readers can understand the labels, as shown below <br>
+<img src="assets/images/README_images/19082021_V1.png" width = "600px">
+
+Improved accessibility score changing id names on form elements (contact us page) <br>
+<img src="assets/images/README_images/21082021_v1.png" width = "600px">
+
+
+#### W3C HTML Check Results - 31/08/2021
+The following images shows some of the initial warnings and errors associated with the three web pages.  I used [W3C HTML validator](https://validator.w3.org/) the following The error message is consistent and will review with support.<br>
+<img src="assets/images/README_images/HTML_access_check_31082021.png" width="550px">
+
+#### W3C CSS Check Results - 31/08/2021
+The results from the W3C CSS checker showcase no errors in the stylesheet. <br>
+<img src="assets/images/README_images/CSS_accessibility_checker_310821.png" width="550px">
+
+
+#### Paul Kemp - Usability Testing - 09/09/2021
+Email feedback received (text copied from email): 
+
+<blockquote><p>The three pages are accessible and i can see the images clearly (when you changed the view).  The text is clear on all pages and the form element gives me a page telling me my options.  When i was on the contact us page and made the browser smaller, the feedback box did go over the form and this would need to be adjusted.  All links seem to work ok and i like that the icons change colour when you hoover over them.</p>
+
+<p>Other comments (apologies for the list) 
+<li>The video is ok, but could this be in the center of the page, rather than to the left.  You mentioned the idea of the apple website and they seem to have things in the middle, could this be done too? </li>
+<li>The number of images on the home page seem alot - could these be reduced? </li>
+<li>The shape outline for the images on the home and meet us page seem to be different sizes - not a fan of the curved edges - could these be less severe?</li>
+<li>On the contact us page - the actual blocks where you enter the information is not that clear and the font size seems really small - could the colour background be changed and font made bigger? </li></p>
+<p>Many thanks and best of luck with this project and hope you do well. </p>
+</blockquote>
+
+#### Brian Macharia - Technical Feedback Evidence - 16/09/2021
+After our technical meeting, Brian kindly noted the advised adjustments to make to the website, in order to comply with usability.  The feedback was valued and does also cross reference the notes made from usability testing:
+<img src = "assets/images/README_images/B_Feedback1.png" width = "550px">
+<img src = "assets/images/README_images/B_Feedback2.png" width = "550px">
+
+#### Kate Tuck - Grammaratical Support - 24/09/2021
+The following notes were made from the discussion with Kate:
+<blockquote>There are a few readability issues on the home page in the first paragraph. Otherwise the other two webpages are ok. 
+My advice, use a website called [Grammarly](https://www.grammarly.com/), you can set your readability targets and you can make the necessary adjustments to each paragraph to make sure they are understood.  
+This is a tool that i recommend GCSE and A-Level students to use before submitting any coursework and does well to identify word placement, grammar and syntax structures.  I would strongly recommend you use this in this website and for future tasks.
+Best of luck with the website and hope you do well.  
+Do not hesitate to contact if you need any other proof reading advice.   </blockquote>
+<hr>
+
+
+
+
+<hr>
+
 
 ### Links to Friends of Leap Valley
 The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) <br>
@@ -241,7 +273,19 @@ The following ideas could be further developed:
 
 ## Credits 
 
+### Support within Code Institute and external
+<ol>
+<li>Brian Macharia - Mentor support over 2 meetings identifying final iterative testing requirements</li>
+<li>Matt Rudge - Template structure required for GitPod</li>
+<li>Code Institute - Support on links between GitPod and Git Hub and usability requirements to complete the task as well as signing up to unlimited plan on GitPod</li>
+<li>Code Institute Stack Group - for verification on using https://formdump.codeinstitute.net/ on form POST elements being allowed</li>
+<li>Code Institute Github page - For support on README templates and baseline templates associated with web developments - the links to the video tutorials were valuable!</li>
+<li>Paul Kemp - Novice tester for looking at the website and suggesting improvements during the testing, with a focus on the success criteria at hand</li>
+<li>Kate Tuck - Literacy support and ideas for SEN support on text (focus on readablity)</li>
+</ol>
+
 ### References for image and accessibility content:
+<ul>
 <li>https://www.pexels.com/</li>
 <li>https://fonts.google.com/</li>
 <li>https://validator.w3.org/</li>
@@ -249,11 +293,13 @@ The following ideas could be further developed:
 <li>https://web.dev/measure/</li>
 <li>https://www.tcv.org.uk/about/</li>
 <li>Creators own images and customisation of primary/copyright compliant sources via image editing software (Photoshop)</li>
+</ul>
 
 ### References for learning:
+<ul>
 <li>https://github.com/Code-Institute-Org/gitpod-full-template</li>
 <li>https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/</li>
 <li>https://github.com/Code-Institute-Solutions/readme-template</li>
 <li>https://stackoverflow.com/questions/37506841/html-for-put-a-label-in-bottom-of-an-image/37506883</li>
-
+</ul>
 
