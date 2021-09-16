@@ -9,14 +9,81 @@ The purpose of the site is to increase the number of volunteers, offering images
 
 A range of media will support the sites purpose, with relevant navigation to images, video and text information.  The end result is a form element where volunteers can sign up to a wide-range of volunteer meetings which the main coordinators can use to ascertain number interest and time popularity for future events. 
 
+### Visit Reasons
+<ol><li>Identify the location of Friends of Leap Valley</li>
+<li>Understand the difference volunteering sections within Leap Valley</li>
+<li>Identify the meeting times associated with volunteering</li>
+<li>Understand the benefits of volunteering with Friends of Leap Valley</li>
+<li>Identify the different opportunities associated with TCV (The Conservation Volunteers)</li><br>
+</ol>
+
+### Developer expectations
+<ol>
+<li>To provide text information about Friends of Leap Valley</li>
+<li>Showcase a range of images to present the natural beauty of the Leap Valley locations</li>
+<li>To provide easy navigation between volunteering information, members and signup form</li>
+<li>To provide links to recognised qualifications that volunteers can complete</li>
+<li>To present testimonals from other volunteers to why they should volunteer</li>
+<li>To provide an easy sign up form for new volunteers that sends information to Friends of Leap Valley</li>
+<li>Present appropriate responsive layouts across a range of media screens: PC, Tablet and Mobile device</li>
+<li>Utilise a range of accessibility measures for visitors (font size, high contrast and accessibility tools)</li>
+</ol>
+
+<hr>
+
+## Design
+### Colors
+To keep in the with the style of Leap Valley, i will some high contrasted colours, utilising green as the background and button elements.  They will feature across many features of the website, which will be identified at the point of the iterative development of the website pages.  Hex code values below: 
+
+<img src = "assets/images/README_images/colors.png" width = "550px">
+
+The black and white colours will be used to present the high contrast elements to the design.  Assistance to identify the colours came from using the following [website](https://coolors.co/e6f0e8-b7e8b0-44803b-f8f8ff-000000)
+
+### Typography
+The font style used will be a sans serif font.  From research, it is important that the font style is easy and clear to read and utilising this style means it is easier for readers to understand across many different devices.  
+
+Font choices: Hebo and Open Sans.  Both fonts are easy to read with a high contrast.
+
+I will embed the following into the CSS code: @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans&display=swap');
+
+### Call to action
+I will use the font styles and colours identified above for the buttons relating to react to the following:
+<ol>
+<li>Image map button</li>
+<li>form button</li>
+<li>Google Map link to locate Leap Valley</li>
+</ol>
+
+### Icons
+I will use [FontAwesome](https://fontawesome.com/) to retrieve the following icons across the website:
+<ol>
+<li>Header: Use a leaf icon to create the logo for Leap Valley Friends</li>
+<li>Header Nav: To support a visual representation of the navigational item to support those with reading accessibility needs</li>
+<li>Footer: Social Media Icons: Facebook, PInterest, YouTube and Twitter</li>
+<li>Footer: Telephone icon: To be able to use VOIP to make contact with TCV and Leap Valley Friends</li>
+<li>Contact Us Page: Icons of a calendar, clock and person to support the times of the next volunteering meetings</li>
+</ol>
+
+### External Links
+I will use relevant links to the following sites:
+<ol>
+<li>Facebook, Twitter, YouTube, PInterest</li>
+<li>Skype link for calling</li>
+<li>What3Words site to access exact location of meeting</li>
+<li>Gateway Qualification link to support further information on the qualification that can be studied</li>
+<li>Link to Conservative Volunteering site that support Friends of Leap Valley</li>
+</ol>
+
+
+<hr>
+
 ### Initial site idea on the home page
+
 <img src = "assets/images/README_images/purpose_section_image.png" width="550px">
 
 <hr>
 
-## Links to Friends of Leap Valley
-The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) <br>
-The link to the [Published site](https://lpr78.github.io/3-Portfolio1/)
+
 
 <hr>
 
@@ -136,11 +203,28 @@ The results from the W3C CSS checker showcase no errors in the stylesheet. <br>
 
 ## Deployment and further development ideas
 
-### Deployment
-<ul>
-<li>The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) are the working files updated from GitPod </li>
-<li>The link to the [Published site](https://lpr78.github.io/3-Portfolio1/) was updated via GitPod and frequently updated to GitHub</li>
-</ul>
+### Pre-Testing Criteria
+The following tests will need to be complete throughout development and final testing.
+<table>
+<tr> <th>Test No</th> <th>Test Actions</th> <th>Test Expectations</th>
+</tr>
+<tr> <td>1</td> <td>Text should be reable and support accessibility requirements utilising a high contrast with screen resolutions at: 500px, 1500px and 2000px</td> <td> Checking each page of the site, the text should be clear with light on dark or dark on light.</td>
+</tr>
+<tr><td>2</td><td>Checking internal navigation links</td><td>Each icon and menu button that is internally linked should open on the same browser page</td></tr>
+<tr><td>3</td><td>Checking external navigation links</td><td>Each of the hyperlinks should open on a new page, using a _blank reference</td></tr>
+<tr><td>4</td><td>Clickable Footer icons should work</td><td>All icons should change colour on hover over and should be clickable.  This is for the header and footer elements, such as social media links.</td></tr>
+<tr><td>5</td><td>Interactive google map element in the footter</td><td>The embedded element should be moveable using a mouse action and should be able to display clearly the location of Leap Valley</td></tr>
+<tr><td>6</td><td>Video controls</td><td>The video should have appropriate interactive elements that allow the user to play/pause on the Introduction page</td></tr>
+<tr><td>7</td><td>Responsive images</td><td>Images should have a title element that displays text associated with the image and should be able to scale across the three responsive size elements: 500px, 1500px and 2000px</td></tr>
+<tr><td>8</td><td>Form elements</td><td>Users should clearly see where they are to add their information in the contact us form.  once the user clicks the submit button a php relays their choices they have selected for the meeting times.</td></tr>
+<tr><td>9</td><td>text information accessible.  The developer will use relevant spelling and grammatical tools prior to text placement on the relevant html page.</td><td>The text information should be clear of spelling and grammatical errors.</td></tr>
+<tr><td>10</td><td>Map enlargement</td><td>The user should be able to locate the map enlargement button on the home page in order to access a larger scaled image of the website itself.</td></tr>
+
+</table>
+
+### Links to Friends of Leap Valley
+The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) <br>
+The link to the [Published site](https://lpr78.github.io/3-Portfolio1/)
 
 ### Further development
 The following ideas could be further developed:
@@ -165,7 +249,6 @@ The following ideas could be further developed:
 <li>https://web.dev/measure/</li>
 <li>https://www.tcv.org.uk/about/</li>
 <li>Creators own images and customisation of primary/copyright compliant sources via image editing software (Photoshop)</li>
-<br><br>
 
 ### References for learning:
 <li>https://github.com/Code-Institute-Org/gitpod-full-template</li>
