@@ -81,7 +81,7 @@ I will use relevant links to the following sites:
 
 The following ideas was developed to see if the actual design ideas were feasible from a high contrast perspective.
 
-<img src = "assets/images/README_images/purpose_section_image.png" width="550px">
+<img src = "assets/images/README_images/purpose_section_image.png" width="550px"><br>
 At this time i believe the content is suitable, but would need to instruct testers to check the website in the following area:
 <ul>
 <li>Usability Testing</li>
@@ -91,17 +91,40 @@ At this time i believe the content is suitable, but would need to instruct teste
 
 So the following designs will be utilised for the responsive elements of the website:
 
-Mobile:
+#### Desktop: 
 
-Tablet:
+<table>
+<tr><th>Home Page</th><th>Meet Us</th><th>Contact Us</th></tr>
+<tr>
+<td><img src = "assets/images/wireframe_designs/DESKTOP-Index.png" width = "500px"></td>
+<td><img src = "assets/images/wireframe_designs/DESKTOP-Meet.png" width = "500px"></td>
+<td><img src = "assets/images/wireframe_designs/DESKTOP-Contact.png" width = "500px"></td>
+</tr>
+</table>
 
-Desktop: 
+#### Tablet:
+
+<table>
+<tr><th>Home Page</th><th>Meet Us</th><th>Contact Us</th></tr>
+<tr>
+<td><img src = "assets/images/wireframe_designs/TABLET-Index.png" width = "400px"></td>
+<td><img src = "assets/images/wireframe_designs/TABLET-Meet.png" width = "400px"></td>
+<td><img src = "assets/images/wireframe_designs/TABLET-Contact.png" width = "400px"></td>
+</tr>
+</table>
+
+#### Mobile:
+<table>
+<tr><th>Home Page</th><th>Meet Us</th><th>Contact Us</th></tr>
+<tr>
+<td><img src = "assets/images/wireframe_designs/MOBILE-Index.png" width = "300px"></td>
+<td><img src = "assets/images/wireframe_designs/MOBILE-Meet.png" width = "300px"></td>
+<td><img src = "assets/images/wireframe_designs/MOBILE-Contact.png" width = "300px"></td>
+</tr>
+</table>
 
 <hr>
 
-
-
-<hr>
 
 ## Media Screen Responsive Elements
 The following show how the elements of the website current look at a responsive level:
