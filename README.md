@@ -77,9 +77,25 @@ I will use relevant links to the following sites:
 
 <hr>
 
-### Initial site idea on the home page
+### Iteration #1 - Initial Idea on the homepage
+
+The following ideas was developed to see if the actual design ideas were feasible from a high contrast perspective.
 
 <img src = "assets/images/README_images/purpose_section_image.png" width="550px">
+At this time i believe the content is suitable, but would need to instruct testers to check the website in the following area:
+<ul>
+<li>Usability Testing</li>
+<li>Readability and Syntax Advisor</li>
+<li>Technical Expertise</li>
+</ul>
+
+So the following designs will be utilised for the responsive elements of the website:
+
+Mobile:
+
+Tablet:
+
+Desktop: 
 
 <hr>
 
@@ -193,6 +209,7 @@ The following tests will need to be complete throughout development and final te
 <tr><td>8</td><td>Form elements</td><td>Users should clearly see where they are to add their information in the contact us form.  once the user clicks the submit button a php relays their choices they have selected for the meeting times.</td></tr>
 <tr><td>9</td><td>text information accessible.  The developer will use relevant spelling and grammatical tools prior to text placement on the relevant html page.</td><td>The text information should be clear of spelling and grammatical errors.</td></tr>
 <tr><td>10</td><td>Map enlargement</td><td>The user should be able to locate the map enlargement button on the home page in order to access a larger scaled image of the website itself.</td></tr>
+<tr><td>11</td><td>Engage Usability Testing and further online testing (W3C)</td><td>To see if the message and purpose of the site is clearly understood by a novice user of which it should be clear, verified across many online platforms associated with W3C checking on responsiveness, accessibility and syntax rules.</td></tr>
 
 </table>
 
