@@ -450,3 +450,65 @@ footer {
 
     footer > iframe {max-width:300px;}
 }
+
+/*Gallery addition to test*/
+/*Link: https://codepen.io/fosterdill/pen/ipeEc*/
+#gallery {
+    width: 200px;
+    margin: 10px auto;
+  }
+  input {
+    display: none;
+  }
+
+#rad1:checked ~ .carousel {
+    -webkit-transform: translateX(0px);
+  }
+  #rad2:checked ~ .carousel {
+    -webkit-transform: translateX(-200px);
+  }
+  #rad3:checked ~ .carousel {
+    -webkit-transform: translateX(-400px);
+  }
+  #rad4:checked ~ .carousel {
+    -webkit-transform: translateX(-600px);
+  }
+  #rad5:checked ~ .carousel {
+    -webkit-transform: translateX(-800px);
+  }
+  .viewport {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  .carousel > img {
+    float: left;
+  }
+  .carousel {
+    position: relative;
+    width: 1000px;
+    left: 0px;
+    -webkit-transition: -webkit-transform 1s;
+  }
+  label {
+    cursor: pointer;
+  }
+  .nav {
+    position: absolute;
+    top: 260px;
+    left: 60px;
+  }
+  .dot {
+    opacity: .5;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: white;
+    margin: 3px;
+    border-radius: 50%;
+    -webkit-transition: opacity .5s;
+  }
+  .dot:hover {
+    opacity: 1;
+  }
