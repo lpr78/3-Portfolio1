@@ -7,12 +7,20 @@ html {
     font-size: 100%;
 }
 
+body {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 /*Apply import font styles to website*/
 h1,
 h2,
 h3,
 h4 {
     font-family: 'Hebo', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 p,
@@ -21,7 +29,17 @@ li,
 label {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    font-size:1rem;
 }
+
+p,label {font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;}
+
+p {padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width:auto;}
 
 strong {
     font-family: 'Hebo', sans-serif;
@@ -39,9 +57,9 @@ iframe {
 header {
     background: url('../images/tree_header.jpg') no-repeat center center;
     overflow: hidden;
-    width: 100%;
+    width: auto;
     background-size: cover;
-    height: auto;
+    height: 100px;
     color: white;
     position:relative;
     top: 0;
@@ -94,7 +112,7 @@ header {
 
 #map_image {
     max-width: 600px;
-    border-radius: 20%;
+    border-radius: 8%;
     border: 2px solid #B7E8B0;
     height: auto;
 }
@@ -107,7 +125,7 @@ header {
 .map_btn {
     padding: 10px;
     border: 2px solid #44803b;
-    border-radius: 20px/50px;
+    border-radius: 8%;
     color: #44803b;
     text-decoration: none;
     cursor: pointer;
@@ -121,15 +139,16 @@ header {
     background-color: #44803b;
 }
 
+#vol_benefits {
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 video {
-
-    border: 2px solid #44803b;
-    border-radius: 5%;
-    position: relative;
-    left: 0;
-    max-height: 315px;
-    max-width: 100%;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
 }
 
 /*CSS code for leap_gallery and leap_images*/
@@ -139,7 +158,7 @@ video {
 
 
 .leap_image {
-    border-radius: 20%;
+    border-radius: 5%;
     border: 2px solid #B7E8B0;
     height: 275px;
     width: auto;
@@ -148,7 +167,7 @@ video {
 
 .leap_image:hover {
     border: 2px solid #44803b;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 
 /*Main content between header and footer*/
@@ -225,13 +244,15 @@ video {
 }
 
 .leap_input {
-    background: transparent;
-    color: whitesmoke;
+    background: whitesmoke;
+    color: black;
     width: 100%;
-    height: 25px;
+    height: 40px;
     margin: 5px 0;
     border: 1px solid whitesmoke;
     border-radius: 2px;
+    font-size: 16px;
+    padding:2px 15px;
 }
 
 .leap_input:hover {
@@ -319,7 +340,7 @@ footer {
 
 
 /*Removing volunteer feedback from sign up form*/
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1340px) {
     #cover_text {
         display: none;
     }
@@ -354,6 +375,9 @@ footer {
         font-size: 90%;
         height: auto;
     }
+    p{font-size: 105%;}
+
+    header{height:165px;}
 
 }
 
@@ -379,6 +403,10 @@ footer {
         font-size: 85%;
     }
 
+    p {font-size: 110%;}
+
+    header{height:250px;}
+
 }
 
 @media screen and (max-width:479px) {
@@ -392,7 +420,7 @@ footer {
 
     #leap_menu {
         margin-left: 5px;
-        font-size: 100%;
+        font-size: 125%;
         letter-spacing: 4px;
         justify-content: left;
         flex-wrap: wrap;
@@ -401,6 +429,7 @@ footer {
         list-style-type: none;
     }
 
+    p {font-size:115%;}
 
 
 }

@@ -286,9 +286,14 @@ My advice, use a website called [Grammarly](https://www.grammarly.com/), you can
 This is a tool that i recommend GCSE and A-Level students to use before submitting any coursework and does well to identify word placement, grammar and syntax structures.  I would strongly recommend you use this in this website and for future tasks.
 Best of luck with the website and hope you do well.  
 Do not hesitate to contact if you need any other proof reading advice.   </blockquote>
+
+#### Changes applied to website based on feedback
+
 <hr>
 
+##### Change 1: Using a carousel on Index and Meet Us page
 
+Code snippet used to inspire the changes to the home page from [W3School](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel&stacked=h)
 
 
 <hr>
