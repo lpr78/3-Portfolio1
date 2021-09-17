@@ -52,6 +52,8 @@ iframe {
     margin-right: 5px;
 }
 
+div {padding:1px;}
+
 /*Header content*/
 
 header {
@@ -379,7 +381,10 @@ footer {
 
     header{height:165px;}
 
+    video {max-width: 940px;}
+
 }
+@media screen and (max-width:770px) { video {max-width: 760px;}}
 
 @media screen and (max-width:600px) {
 
@@ -407,7 +412,11 @@ footer {
 
     header{height:250px;}
 
+    video {max-width: 590px;}
+
 }
+
+
 
 @media screen and (max-width:479px) {
     #main {
@@ -431,5 +440,13 @@ footer {
 
     p {font-size:115%;}
 
+    video {max-width:470px;}
+}
 
+@media screen and (max-width:350px) 
+{
+    video, .leap_image {max-width: 310px; height:auto;
+    }
+
+    footer > iframe {max-width:300px;}
 }
