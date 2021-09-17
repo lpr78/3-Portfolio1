@@ -285,7 +285,7 @@ video {
     letter-spacing: 1px;
     width: 600px;
     height: 425px;
-    margin-top: 100px;
+    margin-top: 150px;
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(183, 232, 176, 0.7);
@@ -457,7 +457,7 @@ footer {
     width: 200px;
     margin: 10px auto;
   }
-  input {
+ #gallery > input {
     display: none;
   }
 
