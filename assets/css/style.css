@@ -304,6 +304,8 @@ video {
     border: 2px solid #000000;
 }
 
+#main_cf{padding-left:0px;padding-right:0px;}
+
 
 /*Footer content*/
 footer {
@@ -465,11 +467,11 @@ footer {
 
 @media screen and (max-width:350px) 
 {
-    video {max-width: 310px; height:auto;
+    video {max-width: 300px; height:auto;
     }
 
-    footer > iframe {max-width:275px;}
+    #google_map {max-width:300px;}
 
-    .leap_input {max-width:275px;}
+    .leap_input {max-width:250px;}
 }
 }

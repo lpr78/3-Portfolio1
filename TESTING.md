@@ -58,5 +58,10 @@ Do not hesitate to contact if you need any other proof reading advice.   </block
 Code snippet used to inspire the changes to the home page from [Raddy.com](https://raddy.co.uk/blog/learn-a-super-cool-effect-using-flexbox-in-under-7min/).
 The number of images has been reduced and organised into two sections relating to Leap Valley, being the Thickets and Meadow areas, as shown below:
 
-  
+Version 1 changes:
+
+<img src="assets/images/README_images/TESTING_images/Update_gallery1.png">
+
+Version 2 changes:
+<img src = "assets/images/README_images/TESTING_images/Update_gallery2.png">
 
