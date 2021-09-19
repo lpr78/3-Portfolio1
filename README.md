@@ -250,11 +250,12 @@ The link to the [Published site](https://lpr78.github.io/3-Portfolio1/)
 The following ideas could be further developed:
 <ul>
 <li>Use a modal for map, rather than linking to the image located on the web server</li>
-<li>Images could be placed into a scrollable gallery on the about us and members page to save space on the webpage itself</li>
+<li>Images could be placed into a bootstrap gallery on the about us and members page to save space on the webpage itself</li>
 <li>Fix the header at the top of each page to allow the user to reduce scrolling to access the menu</li>
 <li>Develop a PHP link that supports the form rather than using the Code Institute POST link</li>
 <li>Link the video to a YouTube server and embed, to improve performance score on lighthouse</li>
 <li>Use some animated elements on images as long as this does not impact the performance score on the lighthouse</li>
+<li>Understand further information relating to the Performance measure on the Lighthouse checker</li>
 </ul>
 
 <hr>

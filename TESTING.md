@@ -39,7 +39,7 @@ Email feedback received (text copied from email):
 </blockquote>
 
 #### Brian Macharia - Technical Feedback Evidence - 16/09/2021
-After our technical meeting, Brian kindly noted the advised adjustments to make to the website, in order to comply with usability.  The feedback was valued and does also cross reference the notes made from usability testing:
+After our technical meeting, Brian kindly noted the advised adjustments to make to the website, in order to comply with usability.  The feedback was valued and does also cross reference the notes made from usability testing:<br>
 <img src = "assets/images/README_images/B_Feedback1.png" width = "550px"><br>
 <img src = "assets/images/README_images/B_Feedback2.png" width = "550px">
 
@@ -116,10 +116,22 @@ The background colours changed on buttons on home and contact us page (form elem
 <img src = "assets/images/README_images/TESTING_images/updated_button.png" width="550px">
 
 
+### Lighthouse score from changes 1 to 6
+
+The following image shows the impact of the changes (to date) based on usability feedback.  The benefit of the lighthouse score is that Accessibility has been improved, to the detriment of the Performance, which i require further understanding on, which is a development target.  
+
+<img src = "assets/images/README_images/TESTING_images/updated_lighthouse_score_190921.png" width="550px">
+
+
 ### Change 7: Spelling and Grammar Changes
 
-Using Grammarly, i have checked the spelling and grammar to ensure the readability is not compromised or purpose ensued.  
+Using Grammarly, i have checked the spelling and grammar to ensure the readability is not compromised or eschew the purpose of the site, which was complete for each page.
 
+An example of one of the highlighted changes recommended using Grammarly below:
+
+<img src = "assets/images/README_images/TESTING_images/updated_grammar_check.png" width="550px">
+
+All changes identified from using this tool have been applied to each of the site pages. 
 
 
 
