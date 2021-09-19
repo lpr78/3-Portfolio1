@@ -241,7 +241,6 @@ Testing information located on the following document: <a href="TESTING.md">Test
 
 <hr>
 
-
 ### Links to Friends of Leap Valley
 The link to the [GitHub File Directory](https://github.com/lpr78/3-Portfolio1) <br>
 The link to the [Published site](https://lpr78.github.io/3-Portfolio1/)

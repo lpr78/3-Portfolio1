@@ -133,15 +133,47 @@ An example of one of the highlighted changes recommended using Grammarly below:
 
 All changes identified from using this tool have been applied to each of the site pages. 
 
-## Other Accessibility Checks
+## Other Accessibility Checks and Success Criteria Checks
 
-### Using Nu HTML Checker
+### Check against success criteria
+
+The following success criteria have been checked against the post testing update:
+
+<img src = "assets/images/README_images/TESTING_images/Success_criteria_update2.png" width="750px">
+
+### HTML and CSS Check Reports
 
 The initial errors on the index page were:
 
 <img src = "assets/images/README_images/TESTING_images/Nu_HTML_Check1.png" width="550px">
+<br>
 
-Which have now been fixed and show in the following report link for the home page: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2F">Nu HTML Report for Home Page </a>
+<ol>
+<li>Final Report for: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2F">Home Page </a></li>
+<li>Final Report for: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2Fmeet.html"> Meet us Page </a></li>
+<li>Final Report for: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2Fcontact.html"> Contact Us Page </a></li>
+<li>Final Report for: <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> CSS Validation Check </a>
+</li>
+<li>Final Report for: <a href="https://wave.webaim.org/report#/https://lpr78.github.io/3-Portfolio1/">WAVE</a></li>
+</ol>
+
+Responsive Check below post edits:
+
+These are the main elements that have changed since the original ones were taken on the <a href = "README.md"> README.md </a> file
+
+Home Page: <br>
+<img src = "assets/images/README_images/TESTING_images/post_home_changes.png" width="550px">
+
+Contact Us Page: <br>
+<img src = "assets/images/README_images/TESTING_images/post_form_changes.png" width="550px">
+
+### Final Lighthouse since additions:
+The performance score has improved slightly, but does need to be considered going into the next project: <br>
+<img src = "assets/images/README_images/TESTING_images/final lighthouse.png" width="550px">
+
+
+Back to <a href="README.md">README </a> file
+
 
 
 
