@@ -57,7 +57,7 @@ div {padding:1px;}
 /*Header content*/
 
 header {
-    background: url('../images/tree_header.jpg') no-repeat center center;
+    background: linear-gradient(to right,rgba(0,0,0,0.6), rgba(0,0,0, 0.2)), url('../images/tree_header.jpg') no-repeat center center;
     overflow: hidden;
     width: auto;
     background-size: cover;
@@ -304,12 +304,10 @@ video {
     border: 2px solid #000000;
 }
 
-#main_cf{padding-left:0px;padding-right:0px;}
-
 
 /*Footer content*/
 footer {
-    background: url('../images/tree_footer.jpg') no-repeat center center;
+    background: linear-gradient(to right,rgba(0,0,0,0.6), rgba(0,0,0, 0.2)), url('../images/tree_footer.jpg') no-repeat center center;
     background-size: cover;
     overflow: hidden;
     color: white;
