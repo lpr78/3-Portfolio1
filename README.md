@@ -217,6 +217,7 @@ The following footer has been used consistently across all three web pages.  <br
 
 ## Deployment
 
+Prior to deployment, i created the following crib sheet, that was a guide to what must be suitable during development and final stages for deployment.  
 ### Success Criteria
 The following tests will need to be complete throughout development and final testing.
 <table>
@@ -237,7 +238,26 @@ The following tests will need to be complete throughout development and final te
 
 </table>
 
-Testing information located on the following document: <a href="TESTING.md">Testing Document</a>
+The project was created using GitPod and committed all changes to my GitHub account.
+
+To create the repository, i firstly logged into GitHub and created a template, using the link provided by Code Institute to duplication into my account.
+I then selected the appropriate repository: lpr78/3-Portfolio1 and selected the Green GitPod button to start editing the creation of the actual website.  Although i am a Mac user, we advised not to use Safari, thus Google Chrome was downloaded in order to complete the necessary tasks associated with this task.  Using appropriate favourites to create a directory of web links to access the relevant content with ease.  
+
+Prior to opening GitPod, i selected settings on the repository and went to pages and set the Branch option to the Main directory, to allow accessibility to relevant README.md files.  I had to enable the GitPod extension on Chrome and set up the relevant link to my GitHub account in order to commit all changes from GitPod to GitHub.  
+
+Certain DIV elements were tested in a local directory on my main PC, using Brackets.io and when happy, transferred across to the relevant GitPod web page.
+
+In order to work locally, it was also important to set up a local repository to work locally on my computer. Which is straightforward to do in GitHub.  Using the relevant <a href = "https://github.com/lpr78/3-Portfolio1">link</a> click the code button and select either Open with GitHub Desktop or Download ZIP.  The latter was my preferred method having become familiar with Brackets.io.  However, this is something to explore in the future, as Brackets.io does not have the capabilities (as i am aware) to allow clones.  I believe in the desktop version of GitHub, you can run the IDE terminal type git clone, followed by the github address.  Which in my case would be:
+
+'''
+git clone https://github.com/lpr78/3-Portfolio1.git
+'''
+
+Further information on this process can be obtained from the following <a href = "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">link</a>
+
+#### Testing completed during final stage development
+
+Further testing information located on the following document: <a href="TESTING.md">Testing Document</a>
 
 #### Reflection post testing
 The design phase was more about learning to use the Balsamiq application and less so on the functionality of the final website and it needs to be more considered going into the next project, ensuring that the colours are checked using appropriate online tools and the appropriate box method is further considered in the design, as a predominant feature.  Rather than considering at the end of the process, and make numerous time consuming edits in the testing phase of the project.  
