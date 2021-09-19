@@ -141,7 +141,7 @@ The initial errors on the index page were:
 
 <img src = "assets/images/README_images/TESTING_images/Nu_HTML_Check1.png" width="550px">
 
-Which have now been fixed and show in the following report link for the home page:
+Which have now been fixed and show in the following report link for the home page: <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flpr78.github.io%2F3-Portfolio1%2F">Nu HTML Report for Home Page </a>
 
 
 
