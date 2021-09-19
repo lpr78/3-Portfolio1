@@ -133,6 +133,16 @@ An example of one of the highlighted changes recommended using Grammarly below:
 
 All changes identified from using this tool have been applied to each of the site pages. 
 
+## Other Accessibility Checks
+
+### Using Nu HTML Checker
+
+The initial errors on the index page were:
+
+<img src = "assets/images/README_images/TESTING_images/Nu_HTML_Check1.png" width="550px">
+
+Which have now been fixed and show in the following report link for the home page:
+
 
 
 
