@@ -145,13 +145,13 @@ The following images shows how the contact us page looks at a responsive level:<
 
 ## Features used in website
 <ul>
-<li>images</li>
-<li>video</li>
-<li>form</li>
-<li>text</li>
-<li>map elements</li>
-<li>icons</li>
-<li>animated elements on images</li>
+<li>images: To allow visual representation and support text.  Focus to help those users that may have educational needs, through visuals</li>
+<li>video: To allow visitor to see elements of Leap Valley through an audio discussion</li>
+<li>form: To allow the visitor to sign up for relevant volunteer events and help the organisers with post requests</li>
+<li>text: To convey meaning and support the site purpose, with detail and direction.</li>
+<li>map elements: A clickable map of Leap Valley aswell as allow visitor see location via Google Maps, location to potentially be the footer</li>
+<li>icons: To convey meaning of text to user, while supporting educational needs and language support.</li>
+<li>animated elements on images: To add excitment and engagement to user visitors, while engaging the core audience of 18-80 year olds.  </li>
 </ul>
 Further details of web elements used below: <br><br>
 
@@ -287,6 +287,7 @@ The following ideas could be further developed:
 <li>Use some animated elements on images as long as this does not impact the performance score on the lighthouse</li>
 <li>Consider colour element in the design phase further, using https://contrast-grid.eightshapes.com/</li>
 <li>Understand further information relating to the Performance measure on the Lighthouse checker</li>
+<li>Identify dual purpose site for accessibility checking website features across many web browsers</li>
 </ul>
 
 <hr>
