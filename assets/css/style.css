@@ -127,18 +127,19 @@ header {
 .map_btn {
     padding: 10px;
     border: 2px solid #44803b;
-    border-radius: 8%;
-    color: #44803b;
+    border-radius: 2%;
+    color: black;
     text-decoration: none;
     cursor: pointer;
+    font-weight:bold;
     transition: all 0.5s ease-out;
 }
 
 .map_btn:hover {
-    border: 2px solid black;
-    border-radius: 5%;
+    border: 2px solid #44803b;
+    border-radius: 2%;
     color: whitesmoke;
-    background-color: #44803b;
+    background-color: black;
 }
 
 #vol_benefits {
@@ -280,7 +281,7 @@ video {
     text-align: center;
     display: block;
     background-color: transparent;
-    border-radius: 20%;
+    border-radius: 2%;
     border: 2px solid #B7E8B0;
     transition: all 0.5s ease-out;
 }

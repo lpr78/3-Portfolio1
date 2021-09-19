@@ -265,8 +265,9 @@ The following ideas could be further developed:
 <ol>
 <li>Brian Macharia - Mentor support over 2 meetings identifying final iterative testing requirements</li>
 <li>Matt Rudge - Template structure required for GitPod</li>
+<li>Matt Bodden - Conversation support on 18/09/2021 via Slack query on Bootstrap, leading to alternative idea on Flexibox and using a TEST.MD file.  Very helpful and appreciated </li>
 <li>Code Institute - Support on links between GitPod and Git Hub and usability requirements to complete the task as well as signing up to unlimited plan on GitPod</li>
-<li>Code Institute Stack Group - for verification on using https://formdump.codeinstitute.net/ on form POST elements being allowed</li>
+<li>Code Institute Slack Group - for verification on using https://formdump.codeinstitute.net/ on form POST elements being allowed</li>
 <li>Code Institute Github page - For support on README templates and baseline templates associated with web developments - the links to the video tutorials were valuable!</li>
 <li>Paul Kemp - Novice tester for looking at the website and suggesting improvements during the testing, with a focus on the success criteria at hand</li>
 <li>Kate Tuck - Literacy support and ideas for SEN support on text (focus on readablity)</li>

@@ -1,3 +1,5 @@
+<a href = "README.md">Link back to README file</a>
+
 ### Testing 
 #### Accessibility Check - 08/08/2021
 <img src="assets/images/README_images/08082021_V2.png" width="600px">
@@ -107,7 +109,14 @@ The lighter green border on the images on the meet us and home page did not cont
 
 <img src = "assets/images/README_images/TESTING_images/updated_border.png" width="550px">
 
-### Change 6: Spelling and Grammar Changes
+### Change 6: Button accessibility colours
+
+The background colours changed on buttons on home and contact us page (form element)
+
+<img src = "assets/images/README_images/TESTING_images/updated_button.png" width="550px">
+
+
+### Change 7: Spelling and Grammar Changes
 
 Using Grammarly, i have checked the spelling and grammar to ensure the readability is not compromised or purpose ensued.  
 
