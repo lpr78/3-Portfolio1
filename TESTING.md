@@ -24,6 +24,7 @@ The following images shows some of the initial warnings and errors associated wi
 The results from the W3C CSS checker showcase no errors in the stylesheet. <br>
 <img src="assets/images/README_images/CSS_accessibility_checker_310821.png" width="550px">
 
+<hr>
 
 #### Paul Kemp - Usability Testing - 09/09/2021
 Email feedback received (text copied from email): 
@@ -115,6 +116,7 @@ The background colours changed on buttons on home and contact us page (form elem
 
 <img src = "assets/images/README_images/TESTING_images/updated_button.png" width="550px">
 
+<hr>
 
 ### Lighthouse score from changes 1 to 6
 
@@ -122,6 +124,7 @@ The following image shows the impact of the changes (to date) based on usability
 
 <img src = "assets/images/README_images/TESTING_images/updated_lighthouse_score_190921.png" width="550px">
 
+<hr>
 
 ### Change 7: Spelling and Grammar Changes
 
@@ -132,6 +135,8 @@ An example of one of the highlighted changes recommended using Grammarly below:
 <img src = "assets/images/README_images/TESTING_images/updated_grammar_check.png" width="550px">
 
 All changes identified from using this tool have been applied to each of the site pages. 
+
+<hr>
 
 ## Other Accessibility Checks and Success Criteria Checks
 
@@ -157,7 +162,9 @@ The initial errors on the index page were:
 <li>Final Report for: <a href="https://wave.webaim.org/report#/https://lpr78.github.io/3-Portfolio1/">WAVE</a></li>
 </ol>
 
-Responsive Check below post edits:
+<hr>
+
+### Responsive Check below post edits:
 
 These are the main elements that have changed since the original ones were taken on the <a href = "README.md"> README.md </a> file
 
@@ -166,6 +173,8 @@ Home Page: <br>
 
 Contact Us Page: <br>
 <img src = "assets/images/README_images/TESTING_images/post_form_changes.png" width="550px">
+
+<hr>
 
 ### Final Lighthouse since additions:
 The performance score has improved slightly, but does need to be considered going into the next project: <br>

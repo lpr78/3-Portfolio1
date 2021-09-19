@@ -239,6 +239,17 @@ The following tests will need to be complete throughout development and final te
 
 Testing information located on the following document: <a href="TESTING.md">Testing Document</a>
 
+#### Reflection post testing
+The design phase was more about learning to use the Balsamiq application and less so on the functionality of the final website and it needs to be more considered going into the next project, ensuring that the colours are checked using appropriate online tools and the appropriate box method is further considered in the design, as a predominant feature.  Rather than considering at the end of the process, and make numerous time consuming edits in the testing phase of the project.  
+
+The actual paperwork was end-heavy.  Meaning that alot of the tasks were completed towards the end of the iterative development, when this should have been active during the creation of the website.  From research, prototyping is a considered method, where designs are created and should be tested, before the actual elements are applied to the site.  It also means that any bootstrap elements considered (which i would like to use going into the next project) are completed at the start, not at the end.  
+
+For my own development, i need to build the confidence to ask for help via the Slack community, although it can be overwhelming to read through posts, the moderators (special thanks to Matt Bodden) provided feedback and advice that was thoughtful and welcoming.  I believe this is a confidence element to ask for help at the start, especially where work schedules can sometimes prevent alot of time to research elements, a simple question can be answered quickly, using this approach.  
+
+The success criteria was considered at the start of the project, however, this was only checked at the end within final stage testing.  This should be an active tool to use throughout development.  Speaking to Matt Bodden he stated that actually completing a matrix of all hyperlinks is considered an asset going forward into future project and although they are minimal within this project, i will need to ensure this is applied going forward. 
+
+I would also need to ensure that knowledge pertinent to the div elements that overlap are known going into the next project, as this is an area of development from this project.  However, i would not know about this area to learn, without reflecting on this project. 
+
 <hr>
 
 ### Links to Friends of Leap Valley
@@ -254,6 +265,7 @@ The following ideas could be further developed:
 <li>Develop a PHP link that supports the form rather than using the Code Institute POST link</li>
 <li>Link the video to a YouTube server and embed, to improve performance score on lighthouse</li>
 <li>Use some animated elements on images as long as this does not impact the performance score on the lighthouse</li>
+<li>Consider colour element in the design phase further, using https://contrast-grid.eightshapes.com/</li>
 <li>Understand further information relating to the Performance measure on the Lighthouse checker</li>
 </ul>
 
@@ -281,6 +293,7 @@ The following ideas could be further developed:
 <li>https://jigsaw.w3.org/css-validator/</li>
 <li>https://web.dev/measure/</li>
 <li>https://www.tcv.org.uk/about/</li>
+<li>https://raddy.co.uk/blog/learn-a-super-cool-effect-using-flexbox-in-under-7min/</li>
 <li>Creators own images and customisation of primary/copyright compliant sources via image editing software (Photoshop)</li>
 </ul>
 
