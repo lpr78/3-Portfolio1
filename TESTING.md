@@ -138,6 +138,10 @@ All changes identified from using this tool have been applied to each of the sit
 
 <hr>
 
+## Browser checks
+
+I checked the website across the following browsers: Safari (preferred as mac owner), Google Chrome and Windows IE (via <a href="https://netrenderer.com/index.php">Net Render</a> selected the Mixed option).  All elements via the Desktop seem to be consistent.  I also checked on the ipad, using TabOS and on an iphone 11 and 12.  The content seemed to be placed as intended.  However, further investigation is needed to identify a website that can list differences on display options.  
+
 ## Other Accessibility Checks and Success Criteria Checks
 
 ### Check against success criteria

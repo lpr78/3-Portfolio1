@@ -3,19 +3,21 @@
 ## Purpose
 
 Leap Valley use a [simple site link](
-http://www.simplesite.com/friendsofleapvalley/76040428) which is very basic and does not include responsive elements or details relating to the volunteer meeting times, or even sign up procedures for potential support from the local community in South Gloucestershire.  The site offers information regarding Leap Valley for visitors, but lacks the contextual links associated with the TVC (Tutoring Volunteering Community) in Bristol or volunteer meetings.  The previous meetings have lacked potential support from the local community, from failed attempts of using the monthly South Gloucestershire new letters.  
+http://www.simplesite.com/friendsofleapvalley/76040428) which is very basic and does not include responsive elements or details relating to the volunteer meeting times or even links to the organisations supporting bursaries, TVC.  There is a lack of volunteering awareness opportunities in the local area, crucial with their ever-growing initiative.  There is not even a sign-up procedure for potential support from the local community in South Gloucestershire. Most processes are paper-based, generally due to the time constraints of the main organisers with their current work commitments.  The simple site offers information regarding Leap Valley but lacks the contextual links associated with the TVC or volunteer meetings.  So local users reply on mobile applications, such as MyNeighbourhood or local leaflets on events, which is not cost-effective for a charity to organise or maintain.  The previous meetings lacked potential support, from failed attempts of using local monthly newsletters and lack of awareness or support from local companies, which are plentiful in the local area.  
 
-The purpose of the site is to increase the number of volunteers, offering images of the beautiful areas within Leap Valley and volunteering meeting slots, which users are able to sign up, using relevant locators, such as What3Words to assist the potential volunteers of the location of the meeting, within Leap Valley.  The site target audience range from young professionals to the retired community, who want to learn about tending to wildlife across the Leap Valley areas and able to transfer these skills into their own garden and nature.  The site should also emphasis where volunteers can support the recent Guerrilla gardening initiative.  
+Therefore, the site's purpose is to increase the number of volunteers.  Likely to be achieved by offering images of the beautiful areas within Leap Valley and information regarding volunteering meeting slots, which users can sign up for.  The local community primarily uses relevant locator apps, such as What3Words, allowing potential volunteers to meet locations within Leap Valley.  The site target audience ranges from young professionals to the retired community.  To learn about tending to wildlife across the Leap Valley areas and transfer these skills into their own garden and nature.  The site should also emphasise where volunteers can support the recent Guerrilla gardening initiative.  
 
-A range of media will support the sites purpose, with relevant navigation to images, video and text information.  The end result is a form element where volunteers can sign up to a wide-range of volunteer meetings which the main coordinators can use to ascertain number interest and time popularity for future events. 
+Visual information must weigh more than text information, as the community has a large EFL community.  Therefore a range of media is needed to support the site's purpose, with relevant navigation to images, video and text information.  The site's goal is to lead the user to the form element.  Where volunteers can sign up for a wide range of volunteer meetings that the main coordinators can use to ascertain the number of interest and time for future events.  The simple site does not emphasise the contact information enough. Therefore, this is important to encourage in this site, even allowing VOIP opportunities used during the lockdown amongst the community members.  
 
 The final product link to the [Published site](https://lpr78.github.io/3-Portfolio1/)
 ### Visit Reasons
-<ol><li>Identify the location of Friends of Leap Valley</li>
-<li>Understand the difference volunteering sections within Leap Valley</li>
-<li>Identify the meeting times associated with volunteering</li>
-<li>Understand the benefits of volunteering with Friends of Leap Valley</li>
-<li>Identify the different opportunities associated with TCV (The Conservation Volunteers)</li><br>
+<ol>
+<li>Identify the location of Leap Valley in South Gloucestershire</li>
+<li>Engage with future volunteers by informing them of the difference volunteering sections within Leap Valley</li>
+<li>Explain the difference between Friends of Leap Valley and the location: Leap Valley</li>
+<li>Inform the user of the available meeting times</li>
+<li>Understand the benefits of volunteering with Friends of Leap Valley, such as certified qualifications, which is great for their CVs.</li>
+<li>To have relevant links to find out more about TCV (The Conservation Volunteers)</li><br>
 </ol>
 
 ### Developer expectations
@@ -31,6 +33,18 @@ The final product link to the [Published site](https://lpr78.github.io/3-Portfol
 </ol>
 
 <hr>
+
+### Success Criteria Idea
+<ol>
+<li>Clear visuals of navigation for the user, on both internal and external links</li>
+<li>Clear presentation of elements supported through a high contrast of foreground and background elements</li>
+<li>All internal and external hyperlinks should work and comply with accessibility rules</li>
+<li>Appropriate text that supports information on Friends of Leap Valley</li>
+<li>The user should be able to submit a contact form relating to attending a volunteer meeting</li>
+<li>Relevant social media links to support omni-channel presence outside of the website access</li>
+<li>The ability to use VOIP protocols to aid online conversations with key contacts</li>
+<li>Clear sectioning using semantic structures</li>
+</ol>
 
 ## Design
 ### Colors
@@ -131,22 +145,22 @@ So the following designs will be utilised for the responsive elements of the web
 The following show how the elements of the website current look at a responsive level:
 
 
-#### Home page view
+#### Home page view - Version 1
 The following images shows how the contact us page looks at a responsive level:<br>
 <img src="assets/images/README_images/responsive3.png" width ="550px">
 
-#### Meet us page view
+#### Meet us page view - Version 1
 The following images shows how the contact us page looks at a responsive level:<br>
 <img src="assets/images/README_images/responsive2.png" width ="550px">
 
-#### Contact us page view
+#### Contact us page view - Version 1
 The following images shows how the contact us page looks at a responsive level:<br>
 <img src="assets/images/README_images/responsive1.png" width ="550px">
 
 ## Features used in website
 <ul>
-<li>images: To allow visual representation and support text.  Focus to help those users that may have educational needs, through visuals</li>
-<li>video: To allow visitor to see elements of Leap Valley through an audio discussion</li>
+<li>images: To allow visual representation and support text.  Focus to help those users that may have educational needs, through visuals as well as ALT text in case the images do not load on the web browser</li>
+<li>video: To allow visitor to see elements of Leap Valley through an audio discussion with ALT text in case the video does not load on the web browser</li>
 <li>form: To allow the visitor to sign up for relevant volunteer events and help the organisers with post requests</li>
 <li>text: To convey meaning and support the site purpose, with detail and direction.</li>
 <li>map elements: A clickable map of Leap Valley aswell as allow visitor see location via Google Maps, location to potentially be the footer</li>
@@ -155,27 +169,42 @@ The following images shows how the contact us page looks at a responsive level:<
 </ul>
 Further details of web elements used below: <br><br>
 
+### Meta Data
+The following meta data will be at the top of each of the HTML pages that details the description, keywords and author:
+
+```
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends of Leap Valley | Contact</title>
+    <meta name="description"
+        content="Volunteer Sign up for Friends of Leap Valley, located in South Gloucestershire, Bristol, United Kingdom">
+    <meta name="keywords"
+        content="gloucestershire, bristol, community, volunteering, volunteer, outdoors, friends, support, cleaning, cutting, planting, maintaining">
+    <meta name="author" content="Luke Price">
+```
 ### Navigation Header
 The following navigation header has been used consistently across all three web pages.  <br>
 <img src="assets/images/README_images/header.png" width="700px">
 <ul>
-<li>Appears at the top of each web page</li>
+<li>Appears at the top of each web page and is consistent and matches all styles associated to each page</li>
 <li>Three links to home page, meet members and contact Friends of Leap Valley</li>
 <li>High contrast with background image that is customised using Photoshop</li>
 <li>Hover over identifies the desired location for the user</li>
 <li>Strong emphasis on current page, to support user with page element currently displayed</li>
 <li>Icons displayed to the right of the images to support identifying words, if translating text is difficult </li>
-<li>Relevant logo that also links to the homepage</li>
+<li>Relevant logo that also links to the homepage to support accessibility issues</li>
 </ul>
 
 ### Home Page Elements
 The following image shows the main elements used on the home page (as of 19/08/2021) <br>
 <img src= "assets/images/README_images/index_pg.png" width ="700px">
 <ul>
-<li>Leap Valley Map to showcase the multiple areas where volunteers can support</li>
-<li>Video element demonstrated by volunteer to showcase popular areas and why they should volunteer</li>
-<li>Responsive images with title tags to showcase the main areas - from Pexels and own images</li>
-<li>Relevant titles and text to support what the volunteer would want to see on the home</li>
+<li>Relevant text associated to what Friends of Leap Valley is about, will be paragraphs with no emphasis to the text, bar the fontawesome assignment</li>
+<li>Leap Valley Map to showcase the multiple areas where volunteers can support which i would like to be embedded and i will research the idea of using a Modal, if not it will be a clickable link that opens a new page with an enlarged map feature</li>
+<li>Video element demonstrated by volunteer to showcase popular areas and why they should volunteer which will be created by myself and added as a video element tag</li>
+<li>Responsive images with title tags to showcase the main areas - from Pexels and my own images, i will research collapse features that moves the images in a grid formation depending on the size of screen</li>
+<li>Relevant titles and text to support what the volunteer would want to see on the home, bar the logo text being H1 tags, the other headings will be showcased as H2 and H3 in order to support accessibility requirements</li>
 </ul>
 
 ### Members Elements
@@ -183,8 +212,8 @@ The following image shows the main elements used on the members page (as of 19/0
 <img src= "assets/images/README_images/meet_pg.png" width ="700px">
 <br>
 <ul>
-<li>Relevant titles and text to support celebrating recent qualification success from volunteers through TVC</li>
-<li>Responsive images of volunteering activities - from Pexels and own images</li>
+<li>Relevant titles and text to support celebrating recent qualification success from volunteers through TVC, which will also showcase an external link to relevant qualification website (need to retrieve these from Paul Kemp who is a volunteer at Friends of Leap Valley)</li>
+<li>Responsive images of volunteering activities - from Pexels and own images which will be in a grid formation and changings depending on the pixel size of the view screen</li>
 <li>Links to qualification to sell the volunteering opportunities</li>
 </ul>
 
@@ -194,9 +223,10 @@ The following image shows the main elements used on the contact us page (as of 1
 <br>
 <ul>
 <li>Relevant titles and text to outline volunteer agenda for each time slot</li>
-<li>Rbanner image utilised for date and form section from pexels and own images</li>
-<li>form element to select volunteering meeting time</li>
-<li>text block to sell the idea of volunteering</li>
+<li>Banner image utilised for date and form section from pexels and own images based on the dates (awaiting August dates from Paul Kemp to apply to the website)</li>
+<li>form element to select volunteering meeting time using text box labels and inputs</li>
+<li>Tick or Radio box element for the user to be able to select.  All form fields should be set as a tag 'Required' in order for Friends of Leap Valley to retrieve the necessary information from the potential volunteer</li>
+<li>text block to sell the idea of volunteering which will be located near the form element showcase quotes and reason to volunteer with Friends of Leap Valley</li>
 </ul>
 
 ### Footer
@@ -204,13 +234,12 @@ The following footer has been used consistently across all three web pages.  <br
 <img src="assets/images/README_images/footer.png" width ="700px">
 <br>
 <ul>
-<li>Appears at the bottom of each web page</li>
-<li>Contains a google map element to locate Leap Valley, where Friends of Leap Valley volunteer</li>
+<li>Appears at the bottom of each web page and is consistent across all pages, in terms of structure and presentation elements.</li>
+<li>Contains a google map element to locate Leap Valley, where Friends of Leap Valley volunteer, likely to be an embedded iframe element</li>
 <li>High contrast with background image that is customised using Photoshop which is the bottom section of the header image</li>
-<li>Hover over identifies the social media icon to select, as well as contact number to call using VOIP</li>
+<li>Hover over identifies the social media icon to select, as well as contact number to call using VOIP which change colour to indicate the element the user is hovered over.</li>
 <li>Strong emphasis on TVC link, to encourage volunteers to consider other opportunities around Bristol</li>
-<li>Copyright notification to inform users of website creator</li>
-<li>Relevant logo that also links to the homepage</li>
+<li>Copyright notification to inform users of website creato to support copyright compliancy</li>
 </ul>
 
 <hr>
@@ -249,9 +278,9 @@ Certain DIV elements were tested in a local directory on my main PC, using Brack
 
 In order to work locally, it was also important to set up a local repository to work locally on my computer. Which is straightforward to do in GitHub.  Using the relevant <a href = "https://github.com/lpr78/3-Portfolio1">link</a> click the code button and select either Open with GitHub Desktop or Download ZIP.  The latter was my preferred method having become familiar with Brackets.io.  However, this is something to explore in the future, as Brackets.io does not have the capabilities (as i am aware) to allow clones.  I believe in the desktop version of GitHub, you can run the IDE terminal type git clone, followed by the github address.  Which in my case would be:
 
-'''
+```
 git clone https://github.com/lpr78/3-Portfolio1.git
-'''
+```
 
 Further information on this process can be obtained from the following <a href = "https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">link</a>
 
@@ -288,6 +317,7 @@ The following ideas could be further developed:
 <li>Consider colour element in the design phase further, using https://contrast-grid.eightshapes.com/</li>
 <li>Understand further information relating to the Performance measure on the Lighthouse checker</li>
 <li>Identify dual purpose site for accessibility checking website features across many web browsers</li>
+<li>Consider using a virtual machine to test on different environments, to include Android, which was missing from this website build</li>
 </ul>
 
 <hr>
